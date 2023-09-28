@@ -1,0 +1,26 @@
+my_test:
+  outputs:
+
+    dev:
+      type: sqlite
+      threads: 1
+      database: 'database'
+      schema: 'main'
+      schemas_and_paths:
+        main: 'C:/Users/Max/Desktop/CNN/_job_test/data/etl.db' #'/my_project/data/etl.db'
+      schema_directory: 'C:/Users/Max/Desktop/CNN/_job_test/data'
+#      extensions:
+#        - '/path/to/sqlite-digest/digest.so'
+
+    prod:
+      type: sqlite
+      threads: 1
+      database: 'database'
+      schema: 'main'
+      schemas_and_paths:
+        main: 'C:/Users/Max/Desktop/CNN/_job_test/data/etl.db' #'/my_project/data/etl.db'
+      schema_directory: 'C:/Users/Max/Desktop/CNN/_job_test/data'
+#      extensions:
+#        - '/path/to/sqlite-digest/digest.so'
+
+  target: dev
