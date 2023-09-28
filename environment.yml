@@ -1,4 +1,4 @@
-name: dbt_test
+name: dbt_sqlite
 channels:
   - conda-forge
 dependencies:

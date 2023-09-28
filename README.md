@@ -1,5 +1,10 @@
 #Для установки среды можно использовать команду
 ```bash
+    conda env create -f environment.yml
+```
+или можно обновить имеющуюся среду
+```bash
+    conda activate dbt_sqlite
     conda env update --file environment.yml  --prune
 ```
 
