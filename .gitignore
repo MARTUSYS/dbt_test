@@ -1,5 +1,5 @@
 # data / key / url
-data/
+*.db
 *.csv
 
 # Byte-compiled / optimized / DLL files
