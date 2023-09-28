@@ -19,12 +19,6 @@ https://github.com/codeforkjeff/dbt-sqlite/pull/49/files
 C:\anaconda\envs\dbt_sqlite\Lib\site-packages\dbt\adapters\sqlite\connections.py
 ```
 
-и нужно убрать строки в файле C:\Users\Max\.dbt\profiles.yml
-```text
-    extensions:
-       - '/path/to/sqlite-digest/digest.so'
-```
-
 при тесте должно быть всё нормально 
 ```bash
     dbt debug --project-dir ./my_test --profiles-dir ./my_test --profile my_test
