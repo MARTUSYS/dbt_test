@@ -27,14 +27,13 @@ C:\anaconda\envs\dbt_sqlite\Lib\site-packages\dbt\adapters\sqlite\connections.py
 
 при тесте должно быть всё нормально 
 ```bash
-    dbt debug --project-dir ./ --profiles-dir ./ --profile my_test
+    dbt debug --project-dir ./my_test --profiles-dir ./my_test --profile my_test
 ```
 
 #Для запуска проекта можно использовать следующие команды
 ```bash
-    cd my_test
-    dbt seed --project-dir ./ --profiles-dir ./ --profile my_test
-    dbt run --project-dir ./ --profiles-dir ./ --profile my_test
+    dbt seed --project-dir ./my_test --profiles-dir ./my_test --profile my_test
+    dbt run --project-dir ./my_test --profiles-dir ./my_test --profile my_test
 ```
 
 
