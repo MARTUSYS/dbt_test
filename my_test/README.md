@@ -3,6 +3,8 @@
     conda env update --file environment.yml  --prune
 ```
 
+файл с сырыми данными Orders.csv нужно поместить в директорию project/my_test/seeds
+
 #из-за ошибки: AttributeError: 'SQLiteCredentials' object has no attribute 'host'
 Применил заплатку 
 ```
